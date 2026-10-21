@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Henna</title>
+
+    <!-- tailwind -->
+    <script src="js/browser@4.js"></script>
+
+</head>
+
+<body class="text-gray-700">
+
+    <!-- start top bar section -->
+
+    <div class="bg-[#ce5b63] text-white text-xs py-3">
+        <div class="container mx-auto px-4 flex items-center justify-between">
+            <span>◉ ◉ ◉ ▣ ◎</span>
+            <div class="hidden md:flex gap-5">
+                <span>♦ 2464 Royal Ln. Mesa, New Jersey 45463</span>
+                <span>✉ unreal@outlook.com</span>
+            </div>
+            <span>English ⌄</span>
+        </div>
+    </div>
+
+    <!-- end top bar section -->
+
+
+    <!-- start navbar section -->
+
+    <header class="container mx-auto px-4 py-4 flex flex-wrap items-center gap-6">
+
+        <a href="#"><img src="imgs/Henna Logo-02 2.png" alt="Henna" class="w-28"></a>
+
+        <nav id="navigation" class="flex flex-wrap gap-6 text-sm max-md:hidden max-md:order-last max-md:w-full">
+            <a href="#" class="hover:text-[#ce5b63]">Home</a>
+            <a href="#services" class="hover:text-[#ce5b63]">Wedding services</a>
+            <a href="#providers" class="hover:text-[#ce5b63]">Providers</a>
+            <a href="#about" class="hover:text-[#ce5b63]">About</a>
+            <a href="#contact" class="hover:text-[#ce5b63]">Contact</a>
+        </nav>
+
+        <div class="ml-auto flex items-center gap-4">
+            <label class="bg-[#e4f4ed] rounded-full px-4 py-2 flex items-center gap-2">
+                <img src="imgs/icon-search.png" alt="" class="w-5">
+                <input id="search" type="search" placeholder="Search" class="bg-transparent outline-none w-28 md:w-48">
+            </label>
+            <a href="#download" class="bg-[#ce5b63] hover:opacity-90 text-white font-bold rounded px-6 py-3 text-sm max-md:hidden">Download App</a>
+            <button id="menu-button" class="md:hidden text-2xl">☰</button>
+        </div>
+
+    </header>
+
+    <!-- end navbar section -->
+
+
+    <!-- start breadcrumb section -->
+
+    <div class="border-t border-gray-100 py-4 text-sm text-gray-400">
+        <div class="container mx-auto px-4 flex items-center justify-between">
+            <span>Home</span>
+            <div class="flex gap-3">
+                <button class="demo-button bg-[#ce5b63] text-white font-bold rounded px-4 py-2 text-xs md:text-sm"
+                    data-title="Create Account" data-text="Account registration is a preview. Connect a server to enable real accounts.">Create Account</button>
+                <button class="demo-button bg-[#fff0e8] text-[#ce5b63] font-bold rounded px-4 py-2 text-xs md:text-sm"
+                    data-title="Login" data-text="Login is a preview. Connect a server to enable sign in.">Login</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- end breadcrumb section -->
+
+
+    <main>
+
+        <!-- start hero section -->
+
+        <section class="h-[380px] md:h-[600px] bg-[url(imgs/back-header-back.png)] bg-cover bg-center">
+            <div class="h-full bg-[#12323d]/60 text-white flex items-center">
+                <div class="container mx-auto px-4">
+                    <h1 class="text-4xl md:text-7xl font-bold uppercase mb-4">Welcome</h1>
+                    <p class="text-lg md:text-3xl max-w-4xl text-gray-200 mb-6">
+                        maxime recusandae nobis maxime recusandae nobis maxime recusandae nobis maxime recusandae nobis
+                    </p>
+                    <a href="#services" class="inline-block bg-[#ce5b63] hover:opacity-90 text-white font-bold rounded px-8 py-4">Get Started</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- end hero section -->
+
+
+        <!-- start categories section -->
+
+        <section class="container mx-auto px-4 mt-12">
+            <div class="grid grid-cols-2 md:grid-cols-5 gap-4 md:gap-8">
+
+                <a href="#services" class="relative block h-48 md:h-80 rounded-2xl overflow-hidden shadow">
+                    <img src="imgs/img-cate.png" alt="photography" class="w-full h-full object-cover">
+                    <span class="absolute bottom-0 inset-x-0 bg-[#e7b8a5]/60 text-white text-center font-bold py-4 md:text-2xl">photography</span>
+                </a>
+                <a href="#services" class="relative block h-48 md:h-80 rounded-2xl overflow-hidden shadow">
+                    <img src="imgs/img-cate.png" alt="photography" class="w-full h-full object-cover">
+                    <span class="absolute bottom-0 inset-x-0 bg-[#e7b8a5]/60 text-white text-center font-bold py-4 md:text-2xl">photography</span>
+                </a>
+                <a href="#services" class="relative block h-48 md:h-80 rounded-2xl overflow-hidden shadow">
+                    <img src="imgs/img-cate-1.png" alt="photography" class="w-full h-full object-cover">
+                    <span class="absolute bottom-0 inset-x-0 bg-[#e7b8a5]/60 text-white text-center font-bold py-4 md:text-2xl">photography</span>
+                </a>
+                <a href="#services" class="relative block h-48 md:h-80 rounded-2xl overflow-hidden shadow">
+                    <img src="imgs/img-cate-2.png" alt="photography" class="w-full h-full object-cover">
+                    <span class="absolute bottom-0 inset-x-0 bg-[#e7b8a5]/60 text-white text-center font-bold py-4 md:text-2xl">photography</span>
+                </a>
+                <a href="#services" class="relative block h-48 md:h-80 rounded-2xl overflow-hidden shadow col-span-2 md:col-span-1">
+                    <img src="imgs/img-cate-3.png" alt="photography" class="w-full h-full object-cover">
+                    <span class="absolute bottom-0 inset-x-0 bg-[#e7b8a5]/60 text-white text-center font-bold py-4 md:text-2xl">photography</span>
+                </a>
+
+            </div>
+        </section>
+
+        <!-- end categories section -->
+
+
+        <!-- start providers section -->
+
+        <section id="providers" class="container mx-auto px-4 mt-16 md:mt-24">
+
+            <div class="flex items-center justify-between mb-8">
+                <h2 class="text-2xl md:text-4xl font-bold">Our Providers</h2>
+                <a href="#join" class="text-blue-400">See All Providers</a>
+            </div>
+
+            <div class="grid grid-cols-2 lg:grid-cols-5 gap-4 md:gap-8">
+
+                <a href="#join" class="relative block rounded-xl overflow-hidden shadow">
+                    <img src="imgs/LOGO PROVIDER-3.png" alt="Hala" class="w-full h-52 md:h-80 object-cover">
+                    <span class="absolute bottom-3 inset-x-2 bg-[#cde4db] text-center font-bold py-2 rounded-lg">Hala Makup Artist</span>
+                </a>
+                <a href="#join" class="relative block rounded-xl overflow-hidden shadow">
+                    <img src="imgs/LOGO PROVIDER-3.png" alt="Hala" class="w-full h-52 md:h-80 object-cover">
+                    <span class="absolute bottom-3 inset-x-2 bg-[#cde4db] text-center font-bold py-2 rounded-lg">Hala Makup Artist</span>
+                </a>
+                <a href="#join" class="relative block rounded-xl overflow-hidden shadow">
+                    <img src="imgs/LOGO PROVIDER-3.png" alt="Hala" class="w-full h-52 md:h-80 object-cover">
+                    <span class="absolute bottom-3 inset-x-2 bg-[#cde4db] text-center font-bold py-2 rounded-lg">Hala Makup Artist</span>
+                </a>
+                <a href="#join" class="relative block rounded-xl overflow-hidden shadow">
+                    <img src="imgs/LOGO PROVIDER-3.png" alt="Hala" class="w-full h-52 md:h-80 object-cover">
+                    <span class="absolute bottom-3 inset-x-2 bg-[#cde4db] text-center font-bold py-2 rounded-lg">Hala Makup Artist</span>
+                </a>
+                <a href="#join" class="relative hidden lg:block rounded-xl overflow-hidden shadow">
+                    <img src="imgs/LOGO PROVIDER-3.png" alt="Hala" class="w-full h-52 md:h-80 object-cover">
+                    <span class="absolute bottom-3 inset-x-2 bg-[#cde4db] text-center font-bold py-2 rounded-lg">Hala Makup Artist</span>
+                </a>
+
+            </div>
+        </section>
+
+        <!-- end providers section -->
+
+
+        <!-- start services section -->
+
+        <section id="services" class="container mx-auto px-4 mt-16 md:mt-24">
+
+            <div class="flex items-center justify-between mb-8">
+                <h2 class="text-2xl md:text-4xl font-bold">Our Services</h2>
+                <a href="#services" class="text-blue-400">See All Services</a>
+            </div>
+
+            <p id="search-message" class="mb-4 text-[#ce5b63]"></p>
+
+            <div class="grid grid-cols-2 lg:grid-cols-5 gap-4 md:gap-8">
+
+                <article class="service-card relative bg-white rounded-2xl shadow-lg overflow-hidden pb-6" data-name="photographer photography wedding flowers">
+                    <img src="imgs/service-1.png" alt="photographer" class="w-full h-36 md:h-52 object-cover">
+                    <button class="favorite absolute right-3 top-3 bg-white text-[#77948b] aria-pressed:text-[#ce5b63] rounded w-7 h-7" aria-pressed="false">♡</button>
+                    <div class="p-4">
+                        <h3 class="text-lg font-bold">photographer</h3>
+                        <p class="text-gray-400">category name</p>
+                        <p class="text-2xl text-yellow-600 my-2">☆☆☆☆ <small class="text-xs text-blue-400">(121)</small></p>
+                        <button class="demo-button w-full border border-gray-400 text-gray-400 hover:text-[#ce5b63] hover:border-[#ce5b63] rounded py-2"
+                            data-title="Wedding photography" data-text="Capture your special day with our wedding photography service. Contact us at evedesign@example.com for availability.">view</button>
+                    </div>
+                </article>
+
+                <article class="service-card relative bg-white rounded-2xl shadow-lg overflow-hidden pb-6" data-name="photographer photography wedding flowers">
+                    <img src="imgs/service-1.png" alt="photographer" class="w-full h-36 md:h-52 object-cover">
+                    <button class="favorite absolute right-3 top-3 bg-white text-[#77948b] aria-pressed:text-[#ce5b63] rounded w-7 h-7" aria-pressed="false">♡</button>
+                    <div class="p-4">
+                        <h3 class="text-lg font-bold">photographer</h3>
+                        <p class="text-gray-400">category name</p>
+                        <p class="text-2xl text-yellow-600 my-2">☆☆☆☆ <small class="text-xs text-blue-400">(121)</small></p>
+                        <button class="demo-button w-full border border-gray-400 text-gray-400 hover:text-[#ce5b63] hover:border-[#ce5b63] rounded py-2"
+                            data-title="Wedding photography" data-text="Capture your special day with our wedding photography service. Contact us at evedesign@example.com for availability.">view</button>
+                    </div>
+                </article>
+
+                <article class="service-card relative bg-white rounded-2xl shadow-lg overflow-hidden pb-6" data-name="photographer photography wedding flowers">
+                    <img src="imgs/service-2.png" alt="photographer" class="w-full h-36 md:h-52 object-cover">
+                    <button class="favorite absolute right-3 top-3 bg-white text-[#77948b] aria-pressed:text-[#ce5b63] rounded w-7 h-7" aria-pressed="false">♡</button>
+                    <div class="p-4">
+                        <h3 class="text-lg font-bold">photographer</h3>
+                        <p class="text-gray-400">category name</p>
+                        <p class="text-2xl text-yellow-600 my-2">☆☆☆☆ <small class="text-xs text-blue-400">(121)</small></p>
+                        <button class="demo-button w-full border border-gray-400 text-gray-400 hover:text-[#ce5b63] hover:border-[#ce5b63] rounded py-2"
+                            data-title="Wedding photography" data-text="Capture your special day with our wedding photography service. Contact us at evedesign@example.com for availability.">view</button>
+                    </div>
+                </article>
+
+                <article class="service-card relative bg-white rounded-2xl shadow-lg overflow-hidden pb-6" data-name="photographer photography wedding flowers">
+                    <img src="imgs/service-3.png" alt="photographer" class="w-full h-36 md:h-52 object-cover">
+                    <button class="favorite absolute right-3 top-3 bg-white text-[#77948b] aria-pressed:text-[#ce5b63] rounded w-7 h-7" aria-pressed="false">♡</button>
+                    <div class="p-4">
+                        <h3 class="text-lg font-bold">photographer</h3>
+                        <p class="text-gray-400">category name</p>
+                        <p class="text-2xl text-yellow-600 my-2">☆☆☆☆ <small class="text-xs text-blue-400">(121)</small></p>
+                        <button class="demo-button w-full border border-gray-400 text-gray-400 hover:text-[#ce5b63] hover:border-[#ce5b63] rounded py-2"
+                            data-title="Wedding photography" data-text="Capture your special day with our wedding photography service. Contact us at evedesign@example.com for availability.">view</button>
+                    </div>
+                </article>
+
+                <article class="service-card relative bg-white rounded-2xl shadow-lg overflow-hidden pb-6 col-span-2 lg:col-span-1" data-name="photographer photography wedding flowers">
+                    <img src="imgs/service-4.png" alt="photographer" class="w-full h-36 md:h-52 object-cover">
+                    <button class="favorite absolute right-3 top-3 bg-white text-[#77948b] aria-pressed:text-[#ce5b63] rounded w-7 h-7" aria-pressed="false">♡</button>
+                    <div class="p-4">
+                        <h3 class="text-lg font-bold">photographer</h3>
+                        <p class="text-gray-400">category name</p>
+                        <p class="text-2xl text-yellow-600 my-2">☆☆☆☆ <small class="text-xs text-blue-400">(121)</small></p>
+                        <button class="demo-button w-full border border-gray-400 text-gray-400 hover:text-[#ce5b63] hover:border-[#ce5b63] rounded py-2"
+                            data-title="Wedding photography" data-text="Capture your special day with our wedding photography service. Contact us at evedesign@example.com for availability.">view</button>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- end services section -->
+
+
+        <!-- start join section -->
+
+        <section id="join" class="container mx-auto px-4 mt-16 md:mt-24">
+            <div class="grid md:grid-cols-[40%_60%] gap-10 items-center">
+
+                <div>
+                    <h2 class="text-3xl md:text-4xl font-bold mb-3">Join<br>To Our Providers</h2>
+                    <p class="text-gray-500 mb-4">
+                        Numquam ut sed autem molestias quo voluptate voluptas. Esse eius dolorum velit molestiae quas voluptas. A aut animi iusto quam. Itaque accusantium nobis nobis doloremque eligendi.
+                    </p>
+                    <button class="demo-button bg-[#ce5b63] hover:opacity-90 text-white rounded px-10 py-3"
+                        data-title="Join our providers" data-text="To join our provider community, contact evedesign@example.com. This page is a front-end demonstration.">Join</button>
+                </div>
+
+                <div class="grid grid-cols-3 gap-4 md:gap-8">
+                  
+                    <a href="#contact" class="relative block rounded-xl overflow-hidden shadow">
+                        <img src="imgs/LOGO PROVIDER.png" alt="Hala" class="w-full h-36 md:h-64 object-cover">
+                        <span class="absolute bottom-2 inset-x-1 bg-[#cde4db] text-center font-bold py-2 rounded-lg text-[10px] md:text-lg">Hala MakeUp Artist</span>
+                    </a>
+                    <a href="#contact" class="relative block rounded-xl overflow-hidden shadow">
+                        <img src="imgs/LOGO PROVIDER.png" alt="Hala" class="w-full h-36 md:h-64 object-cover">
+                        <span class="absolute bottom-2 inset-x-1 bg-[#cde4db] text-center font-bold py-2 rounded-lg text-[10px] md:text-lg">Hala MakeUp Artist</span>
+                    </a>
+                    <a href="#contact" class="relative block rounded-xl overflow-hidden shadow">
+                        <img src="imgs/LOGO PROVIDER.png" alt="Hala" class="w-full h-36 md:h-64 object-cover">
+                        <span class="absolute bottom-2 inset-x-1 bg-[#cde4db] text-center font-bold py-2 rounded-lg text-[10px] md:text-lg">Hala MakeUp Artist</span>
+                    </a>
+                    <a href="#contact" class="relative block rounded-xl overflow-hidden shadow">
+                        <img src="imgs/LOGO PROVIDER-1.png" alt="Hala" class="w-full h-36 md:h-64 object-cover">
+                        <span class="absolute bottom-2 inset-x-1 bg-[#cde4db] text-center font-bold py-2 rounded-lg text-[10px] md:text-lg">Hala MakeUp Artist</span>
+                    </a>
+                    <a href="#contact" class="relative block rounded-xl overflow-hidden shadow">
+                        <img src="imgs/LOGO PROVIDER-1.png" alt="Hala" class="w-full h-36 md:h-64 object-cover">
+                        <span class="absolute bottom-2 inset-x-1 bg-[#cde4db] text-center font-bold py-2 rounded-lg text-[10px] md:text-lg">Hala MakeUp Artist</span>
+                    </a>
+                    <a href="#contact" class="relative block rounded-xl overflow-hidden shadow">
+                        <img src="imgs/LOGO PROVIDER-1.png" alt="Hala" class="w-full h-36 md:h-64 object-cover">
+                        <span class="absolute bottom-2 inset-x-1 bg-[#cde4db] text-center font-bold py-2 rounded-lg text-[10px] md:text-lg">Hala MakeUp Artist</span>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- end join section -->
+
+
+        <!-- start newsletter section -->
+
+        <section class="container mx-auto px-4 mt-16 md:mt-32 text-center">
+
+            <h2 class="text-3xl md:text-4xl font-bold tracking-widest mb-4">Newsletter</h2>
+            <p class="text-gray-400 max-w-3xl mx-auto mb-6">
+                Be the first one to know about discounts, offers and events weekly in your mailbox. Unsubscribe whenever you like with one click.
+            </p>
+
+            <form id="newsletter-form" class="flex flex-wrap justify-center gap-3">
+                <label class="bg-[#e4f4ed] flex items-center gap-3 px-4 py-3 rounded w-full max-w-md">
+                    <img src="imgs/message.png" alt="" class="w-6">
+                    <input type="email" required placeholder="Enter Your E-Mail" class="bg-transparent outline-none w-full">
+                </label>
+                <button type="submit" class="bg-[#ce5b63] hover:opacity-90 text-white rounded px-8 py-3">Submit</button>
+            </form>
+
+            <p id="newsletter-message" class="mt-3 min-h-5 text-[#ce5b63]"></p>
+
+        </section>
+
+        <!-- end newsletter section -->
+
+
+        <!-- start download section -->
+
+        <section id="download" class="container mx-auto px-4 mt-10">
+            <div class="rounded-3xl overflow-hidden bg-[url(imgs/rectangle-19.png)] bg-cover bg-center">
+                <div class="bg-[#0c3b43]/85 text-white p-8 md:p-24">
+
+                    <h2 class="text-3xl md:text-6xl font-bold mb-6">Download<br>Henna Mobile App</h2>
+                    <p class="text-gray-300 md:text-2xl max-w-xl mb-8">
+                        Numquam ut sed autem molestias quo voluptate voluptas. Esse eius dolorum velit molestiae quas voluptas.
+                    </p>
+
+                    <div class="flex flex-wrap gap-4">
+                        <button class="demo-button border border-gray-400 text-gray-200 rounded px-6 py-3"
+                            data-title="Download iOS" data-text="The iOS download link will be available when the app is published."> Download Ios</button>
+                        <button class="demo-button bg-[#ffdbcd] text-[#ce5b63] rounded px-6 py-3"
+                            data-title="Download Android" data-text="The Android download link will be available when the app is published."> Download Android</button>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- end download section -->
+
+
+        <!-- start about section -->
+
+        <section id="about" class="container mx-auto px-4 mt-16 md:mt-32">
+
+            <h2 class="text-3xl font-bold mb-6">About Henna</h2>
+
+            <div class="grid md:grid-cols-3 gap-6">
+
+                <article class="rounded-3xl p-8 text-white bg-[#d95c65]">
+                    <h3 class="text-3xl md:text-5xl font-bold mb-4">Objectives</h3>
+                    <p class="text-white/75 md:text-xl">lorem asdaslorem asdaslorem asdaslorem asdaslorem asdaslorem asdas</p>
+                </article>
+
+                <article class="rounded-3xl p-8 text-white bg-[#215861]">
+                    <h3 class="text-3xl md:text-5xl font-bold mb-4">Visions</h3>
+                    <p class="text-white/75 md:text-xl">lorem asdaslorem asdaslorem asdaslorem asdaslorem asdaslorem asdas</p>
+                </article>
+
+                <article class="rounded-3xl p-8 text-white bg-[#d95c65]">
+                    <h3 class="text-3xl md:text-5xl font-bold mb-4">Missions</h3>
+                    <p class="text-white/75 md:text-xl">lorem asdaslorem asdaslorem asdaslorem asdaslorem asdaslorem asdas</p>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- end about section -->
+
+    </main>
+
+
+    <!-- start footer section -->
+
+    <footer id="contact" class="container mx-auto px-4 mt-16 md:mt-32">
+        <div class="grid grid-cols-3 md:grid-cols-[2.6fr_1fr_1fr_1fr] gap-6 md:gap-16">
+
+            <div class="col-span-3 md:col-span-1 max-w-xl">
+                <a href="#"><img src="imgs/Henna Logo-02 2.png" alt="Henna" class="w-36 md:w-48 mb-4"></a>
+                <p class="text-gray-400 mb-4">
+                    We are a lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+                </p>
+                <a href="mailto:evedesign@example.com" class="flex items-center gap-3 text-gray-400">
+                    <img src="imgs/vector-message.png" alt="" class="w-12 p-3 bg-[#fff0e8] rounded-full">
+                    <span>Contact us<strong class="block text-[#ce5b63]">evedesign@example.com</strong></span>
+                </a>
+            </div>
+
+            <div>
+                <h3 class="font-bold mb-3">Useful Links</h3>
+                <a href="#services" class="block text-gray-500 leading-8 hover:text-[#ce5b63]">Categories</a>
+                <a href="#services" class="block text-gray-500 leading-8 hover:text-[#ce5b63]">Services</a>
+                <a href="#providers" class="block text-gray-500 leading-8 hover:text-[#ce5b63]">Posts</a>
+                <a href="#about" class="block text-gray-500 leading-8 hover:text-[#ce5b63]">Policy</a>
+                <a href="#contact" class="block text-gray-500 leading-8 hover:text-[#ce5b63]">Payment Methods</a>
+            </div>
+
+            <div>
+                <h3 class="font-bold mb-3">Services</h3>
+                <a href="#services" class="block text-gray-500 leading-8 hover:text-[#ce5b63]">Wedding Services</a>
+                <a href="#services" class="block text-gray-500 leading-8 hover:text-[#ce5b63]">others</a>
+                <a href="#services" class="block text-gray-500 leading-8 hover:text-[#ce5b63]">others</a>
+                <a href="#services" class="block text-gray-500 leading-8 hover:text-[#ce5b63]">others</a>
+            </div>
+
+            <div>
+                <h3 class="font-bold mb-3">Social Media</h3>
+                <a href="https://www.facebook.com/" target="_blank" class="block text-gray-500 leading-8 hover:text-[#ce5b63]">Facebook</a>
+                <a href="https://www.instagram.com/" target="_blank" class="block text-gray-500 leading-8 hover:text-[#ce5b63]">Instagram</a>
+                <a href="https://www.whatsapp.com/" target="_blank" class="block text-gray-500 leading-8 hover:text-[#ce5b63]">Whatsapp</a>
+                <a href="https://telegram.org/" target="_blank" class="block text-gray-500 leading-8 hover:text-[#ce5b63]">Telegram</a>
+            </div>
+
+        </div>
+
+        <p class="text-center text-gray-400 py-10">© 2023. All Rights Reserved</p>
+    </footer>
+
+    <!-- end footer section -->
+
+
+    <!-- start details dialog -->
+
+    <dialog id="details" class="m-auto rounded-2xl p-8 w-[90%] max-w-md backdrop:bg-black/40">
+        <h2 id="details-title" class="text-xl font-bold mb-3"></h2>
+        <p id="details-text" class="text-gray-600 mb-6"></p>
+        <button id="close-details" class="bg-[#ce5b63] text-white rounded px-6 py-2">Close</button>
+    </dialog>
+
+    <!-- end details dialog -->
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
